@@ -7,7 +7,7 @@ import numpy as np
 import face_recognition
 import csv
 
-from AdfansedKonkuterWision.FaceRec2.db_tool import DBtool
+from db_tool import DBtool
 
 db = DBtool(db_path="faces.db")
 data = db.fetch_data()
